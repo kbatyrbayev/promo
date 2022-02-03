@@ -77,8 +77,11 @@ button {
 }
 
 .main {
-  background: #F4F3FB;
   height: 560px;
+  background: #F4F3FB;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 4px 25px #BEBEBF;
+  border-radius: 12px;
   
   &-left {
     display: flex;

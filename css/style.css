@@ -78,8 +78,12 @@ button.free-btn.m-l {
 }
 
 .main {
-  background: #F4F3FB;
   height: 560px;
+  background: #F4F3FB;
+  border: 1px solid #FFFFFF;
+  -webkit-box-shadow: 0px 4px 25px #BEBEBF;
+          box-shadow: 0px 4px 25px #BEBEBF;
+  border-radius: 12px;
 }
 
 .main-left {
