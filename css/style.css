@@ -144,21 +144,21 @@ button.free-btn.m-l {
           align-items: center;
 }
 
-.feat {
+.section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 140px;
 }
 
-.feat.opportunities, .feat.event, .feat.theme {
+.section.opportunities, .section.event, .section.theme {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.feat-title {
+.section-title {
   font-weight: bold;
   font-size: 40px;
   line-height: 48px;
@@ -166,7 +166,7 @@ button.free-btn.m-l {
   text-align: center;
 }
 
-.feat-desc {
+.section-desc {
   margin: 0 auto;
   font-weight: 300;
   font-size: 24px;
@@ -175,7 +175,7 @@ button.free-btn.m-l {
   margin-bottom: 60px;
 }
 
-.feat-items {
+.section-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,14 +184,14 @@ button.free-btn.m-l {
           justify-content: space-between;
 }
 
-.feat-items.dir-col {
+.section-items.dir-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.feat-item {
+.section-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -200,19 +200,19 @@ button.free-btn.m-l {
           align-items: center;
 }
 
-.feat-item.mb-120 {
+.section-item.mb-120 {
   margin-bottom: 120px;
 }
 
-.feat-item .item {
+.section-item .item {
   border-radius: 12px;
 }
 
-.feat-item .item-pic {
+.section-item .item-pic {
   margin-bottom: 43px;
 }
 
-.feat-item .item-title {
+.section-item .item-title {
   font-weight: bold;
   font-size: 32px;
   line-height: 40px;
@@ -220,7 +220,7 @@ button.free-btn.m-l {
   text-align: center;
 }
 
-.feat-item .item-desc {
+.section-item .item-desc {
   margin: 0 auto;
   max-width: 264px;
   font-weight: 300;
@@ -229,7 +229,7 @@ button.free-btn.m-l {
   text-align: center;
 }
 
-.feat-info {
+.section-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,14 +241,14 @@ button.free-btn.m-l {
   margin-left: auto;
 }
 
-.feat-info-title {
+.section-info-title {
   font-weight: bold;
   font-size: 32px;
   line-height: 40px;
   margin-bottom: 24px;
 }
 
-.feat-info-desc {
+.section-info-desc {
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -312,7 +312,7 @@ button.free-btn.m-l {
   -webkit-filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
   border-radius: 12px;
-  background-color: red;
+  background-color: grey;
 }
 
 .footer {
@@ -394,8 +394,7 @@ button.free-btn.m-l {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  -webkit-font-feature-settings: "salt" on, "liga" off;
-          font-feature-settings: "salt" on, "liga" off;
+  font-sectionure-settings: "salt" on, "liga" off;
   color: rgba(13, 28, 50, 0.7);
 }
 
