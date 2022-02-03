@@ -29,6 +29,31 @@ body {
           align-items: center;
 }
 
+.navigation-menu.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #F4F3FB;
+  height: 90px;
+  -webkit-box-shadow: 0px 4px 25px #bebebf;
+          box-shadow: 0px 4px 25px #bebebf;
+  z-index: 1;
+}
+
+.navigation-menu.sticky .header {
+  height: 90px;
+  padding: 10px 0;
+}
+
+.empty-box {
+  height: 0;
+  background: red;
+}
+
+.empty-box.sticky {
+  height: 190px;
+}
+
 .menu {
   margin-left: auto;
 }
