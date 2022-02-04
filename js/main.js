@@ -2,8 +2,12 @@ window.onload = function () {
 
 
   /* sticky logic start */
+
+  window.onscroll = function () { setStickyMenu() };
+
   let navigationMenu = document.getElementById('navigation-menu');
   let sticky = navigationMenu.offsetTop;
+  console.log(sticky, 'sticky');
 
   function setStickyMenu() {
     if (window.pageYOffset > sticky) {
@@ -13,9 +17,8 @@ window.onload = function () {
     }
   }
 
-  window.onscroll = function () { setStickyMenu(); };
-
   setStickyMenu();
+
   /* sticky logic end */
 
 
