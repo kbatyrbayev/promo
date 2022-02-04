@@ -26,14 +26,10 @@ window.onload = function () {
 
   for (let m of menu) {
     m.addEventListener('click', function (event) {
-      console.log(event);
       event.preventDefault();
       let id = this.getAttribute('href').substr(1);
-      document.getElementById(id).scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
-      
+      let elem = document.getElementById(id).offsetTop;
+      window.scrollTo({ top: elem-140, behavior: 'smooth'});
     });
   }
   /* scroll when select menu end*/

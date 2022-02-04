@@ -45,15 +45,6 @@ body {
   padding: 10px 0;
 }
 
-.empty-box {
-  height: 0;
-  background: red;
-}
-
-.empty-box.sticky {
-  height: 190px;
-}
-
 .menu {
   margin-left: auto;
 }
