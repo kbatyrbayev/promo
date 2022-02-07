@@ -179,8 +179,13 @@
         <!-- /.section-title -->
         <div class="section-desc">Никаких ограничений! Выбирайте свою любимую тему.</div>
         <!-- /.section-desc -->
-        <div class="section-theme-wrapper">
-          <img src="./images/pics/theme.jpg" alt="theme-picture">
+        <div class="section theme-wrapper">
+          <div class="slider-wrapper">
+            <figure>
+              <div id="myPics"></div>
+            </figure>
+            <input oninput="beforeAfter()" onchange="beforeAfter()" type="range" min="0" max="100" value="50" id="myRange" />
+          </div>
         </div>
         <!-- /.section-theme-wrapper -->
       </div>

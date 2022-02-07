@@ -38,5 +38,8 @@ window.onload = function () {
   /* scroll when select menu end*/
 
 
-
+  
+}
+function beforeAfter() {  
+  document.getElementById('myPics').style.width = document.getElementById('myRange').value + "%";
 }
